@@ -6,6 +6,6 @@
   "author": "Eben Packwood",
   "license": "MIT",
   "dependencies": {
-    "wireframe": "git://github.com/ebenpack/wireframe.js#master",
+    "wireframe": "git://github.com/ebenpack/wireframe.js#master"
   }
 }
