@@ -1,0 +1,11 @@
+{
+  "name": "vu",
+  "version": "0.0.1",
+  "description": "3D spectrogram",
+  "main": "src/vu.js",
+  "author": "Eben Packwood",
+  "license": "MIT",
+  "dependencies": {
+    "wireframe": "git://github.com/ebenpack/wireframe.js#master",
+  }
+}
