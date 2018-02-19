@@ -1,6 +1,6 @@
 var wireframe = require('wireframe');
 
-function VU(){
+function VU(audioFile){
     // "Globals"
     var Scene = wireframe.engine.Scene;
     var scene = new Scene({canvas_id: 'canvas', width:600, height:400});
@@ -258,7 +258,7 @@ function VU(){
 
         // Start off with default audio file.
         initAudio();
-        XHRLoadSound("../../audio/piano-sonata-no13.ogg");
+        XHRLoadSound(audioFile);
         window.requestAnimationFrame(update);
     })();
     }
